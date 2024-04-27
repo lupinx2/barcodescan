@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "productID": "123456789",
+            "name": "TEST_PRODUCT",
+            "description": "This is a test product, its code is 000000 and its price is 0.0.",
+            "price": 0.0
+        },
+        {
+            "productID": "853940527",
+            "name": "PRODUCT_1",
+            "description": "This is product 1, its code is 111111 and its price is 10.0.",
+            "price": 10.0
+        },
+        {
+            "productID": "027540327",
+            "name": "PRODUCT_2",
+            "description": "This is product 2, its code is 222222 and its price is 20.0.",
+            "price": 20.0
+        },
+        {
+            "productID": "987654321",
+            "name": "Liscnecia Winrar",
+            "description": "This is product 3, its code is 987654321 and its price is 30.0.",
+            "price": 30.0
+        }
+    ]
+}
