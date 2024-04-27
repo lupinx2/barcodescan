@@ -8,21 +8,33 @@
         },
         {
             "productID": "853940527",
-            "name": "PRODUCT_1",
-            "description": "This is product 1, its code is 111111 and its price is 10.0.",
-            "price": 10.0
+            "name": "MTG Booster Pack",
+            "description": "15 cards per pack",
+            "price": 6.0
         },
         {
             "productID": "027540327",
-            "name": "PRODUCT_2",
-            "description": "This is product 2, its code is 222222 and its price is 20.0.",
+            "name": "Pistola",
+            "description": "Glock 9mm",
             "price": 20.0
         },
         {
             "productID": "987654321",
-            "name": "Liscnecia Winrar",
-            "description": "This is product 3, its code is 987654321 and its price is 30.0.",
-            "price": 30.0
+            "name": "Liscencia Winrar",
+            "description": "Se acabo el periodo de prueba",
+            "price": 10.0
+        },
+        {
+            "productID": "135792468",
+            "name": "Machete",
+            "description": "Machete de 24 pulgadas",
+            "price": 25.0
+        },
+        {
+            "productID": "246813579",
+            "name": "Pepsi",
+            "description": "No hay coca",
+            "price": 1.0
         }
     ]
 }
