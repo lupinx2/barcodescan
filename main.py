@@ -8,7 +8,8 @@ table_data = []
 layout = [
     [sg.Text("Punto De Venta")],
     [text_capture],
-    [sg.Table(table_data, headings=["Producto", "Precio", "Cantidad", "Total"], key="-TABLE-", expand_y=True, expand_x=True, col_widths=[20, 10, 10, 10], auto_size_columns=False, justification="center")],
+    [sg.Table(table_data, headings=["Producto", "Precio", "Cantidad", "Total"], key="-TABLE-", expand_y=True, expand_x=True, 
+              col_widths=[20, 10, 10, 10], auto_size_columns=False, justification="center")],
     [sg.Text("Total: $"), sg.Text("0.00", key="-TOTAL-", size=(16, 1), justification="left")],
     [sg.Button("Salir"), sg.Button("Reset", button_color="red"), sg.Button("Finalizar Compra", button_color="green")]
 ]
@@ -44,7 +45,7 @@ while True:
         text_capture.update("")
         table_data = []
         window["-TABLE-"].update(values=table_data)
-        window["-TOTAL-"].update("Total: $0.00")
+        window["-TOTAL-"].update("0.00")
         continue
 
     if event == "Finalizar Compra":
